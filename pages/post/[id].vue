@@ -1,9 +1,9 @@
 <template>
     <div class="w-1/2 mx-auto my-10">
-        <h2 class="text-2xl font-semibold text-violet-700">Nuxt Blog</h2>
+        <h2 class="section-title">Nuxt Blog</h2>
 
         <article class="my-7 pb-3">
-        <h1 class="text-6xl text-violet-750 mb-4">{{ post.title }}</h1>      
+        <h1 class="post-title mb-4">{{ post.title }}</h1>      
         <p class="mb-3">{{ post.body }}</p>
         </article>  
   </div>
