@@ -5,10 +5,6 @@
         </div>
         
         <hr>
-        
-        <ul class="space-y-4">
-            <li>Curso exemplo</li>
-        </ul>
     <!-- </div> -->
 </template>
 

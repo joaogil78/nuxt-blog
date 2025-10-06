@@ -6,7 +6,7 @@ interface UserPayloadInterface {
 }
 
 export const useAuthStore = defineStore('auth', {
-    state: () => { // ou pose-se envolver essas chaves em parentese sem usar o return {}
+    state: () => { // ou pode-se envolver essas chaves em parentese sem usar o return {}
         return {
             authenticated: false,
             loading: false,
